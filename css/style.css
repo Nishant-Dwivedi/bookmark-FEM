@@ -25,6 +25,7 @@
     --soft-red : hsl(0, 94%, 66%);
     --grayish-blue:  hsl(229, 8%, 60%);
     --dark-blue: hsl(229, 31%, 21%);
+    
 }
 
 *{
@@ -129,6 +130,10 @@ main {
     background-position: right bottom;
     
 }
+.right > img {
+    width: 100%;
+    height: auto;
+}
 
 .left {
     display: flex;
@@ -224,6 +229,10 @@ main {
     flex-direction: column;
     align-items: center;
     padding: 1rem 0;
+}
+.bookmark img, .search img, .share img {
+    width: 100%;
+    height: auto;
 }
 .search{
     display: none;
@@ -611,6 +620,10 @@ footer > div {
     .bookmark , .search , .share  {
       flex-direction: row;
       justify-content: space-around;
+    }
+    .bookmark img, .search img, .share img {
+        width: auto;
+
     }
     .tab-main {
         padding: 5rem 0;
