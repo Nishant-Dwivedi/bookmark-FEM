@@ -144,7 +144,9 @@ main {
 }
 
 .left h1 {
+   
     padding-inline: 2.5rem;
+    
 }
 .left p {
     padding-inline: 2.5rem;
@@ -402,7 +404,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2.5rem 0;
+    padding: 2.5rem;
 }
 
 .signup > h4 {
