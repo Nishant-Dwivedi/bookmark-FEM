@@ -142,16 +142,21 @@ main {
     padding: 2.5rem 0;
     
 }
+
+.left h1 {
+    padding-inline: 2.5rem;
+}
 .left p {
     padding-inline: 2.5rem;
     padding-bottom: 1.5rem;
     color: var(--grayish-blue);
     
 }
+
+
 .left button {
     padding: 1rem;
-    border-radius: 5px;
-    margin-inline-end: 1rem;
+    border-radius: 5px; 
     border: none;
     box-shadow: 0 3px 5px  var(--grayish-blue) ;
     font-weight: 500;
@@ -161,6 +166,10 @@ main {
     background-color: var(--soft-blue);
     color: white;
     box-shadow: none;
+}
+
+.left button:first-child {
+    margin-inline-end: 1rem;
 }
 
 /* FEATURES */
@@ -267,7 +276,7 @@ main {
 }
 
 .download > h3 {
-    padding: 1rem;
+    padding: 1rem 2.5rem;
     font-size: x-large;
     font-weight: 500;
 }
@@ -595,12 +604,15 @@ footer > div {
     }
     .left {
         display: block;
-        
+        padding-inline: 2.5rem;
         
     }
     .left p {
-        padding-inline: 0;
+        
         padding-right: 15%;
+    }
+    .left div {
+        padding-left: 2.5rem;
     }
 
     /* features */
