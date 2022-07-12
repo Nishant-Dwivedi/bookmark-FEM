@@ -4,6 +4,12 @@ This is an **Intermediate** level challenge by [FrontEndMentor - The Bookmark La
 
 Here's a **[LIVE PREVIEW](https://ubiquitous-pudding-dabbd5.netlify.app/)**
 
+
+## Screenshots
+
+![](./desktop.png)
+![](./mobile.png)
+
 My thoughts about the challenge:
 
 - Getting the layout to be **resposive** was quite tricky. 
